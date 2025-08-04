@@ -90,7 +90,7 @@ const AboutSection = () => {
             <motion.div variants={itemVariants} className="space-y-4">
               <h3 className="text-xl font-medium mb-6">What I Love Building</h3>
               <div className="grid gap-4">
-                {PASSIONS.map((passion, index) => (
+                {PASSIONS.map((passion) => (
                   <motion.div
                     key={passion.title}
                     variants={itemVariants}

@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { motion, useInView, useScroll, useTransform } from "framer-motion";
+import { motion, useInView} from "framer-motion";
 import { ArrowUp } from "lucide-react";
 import { SOCIALS } from "../../utils/data";
 
